@@ -15,7 +15,5 @@ docker run -d --rm --name my-www --link my-php:php -p 80:80 -v C:\Users\Ginpei\D
 # Stop
 
 ```shell
-docker stop my-db
-docker stop my-php
-docker stop my-www
+docker stop my-db my-php my-www
 ```
